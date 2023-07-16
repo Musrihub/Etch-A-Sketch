@@ -13,7 +13,7 @@ if (e.target.targetName !="BUTTON"){
         draw.innerHTML = "you can draw";
     }
     else {
-        draw.innerHTML = "you are allowed";
+        draw.innerHTML = "you are allowed to draw";
     }
 }
    })

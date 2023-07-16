@@ -25,22 +25,23 @@ flex-direction: column;
     font-size: 18px;
 
 }
+.board{
+    display: grid;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    
+}
 .footer{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 500px;
+    width: 300px;
     margin-top: 20px;
     
 }
-.board{
-    display: grid;
-    width: 500px;
-    height: 500px;
-    border: 1px solid black;
-    
-}
+
 .black-color{
     background-color: black;
     color: white;
